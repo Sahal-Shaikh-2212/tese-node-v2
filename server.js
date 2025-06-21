@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
-  res.send("Subscribe to Arpan Neupane's channel 1");
+  res.send("welcome to sflogic 1");
 });
 app.get("/about", (req, res) => {
   res.send("you are on about page");
